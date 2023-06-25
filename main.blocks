@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="jQ#*#^Gn:?=r3/naQlb8">sol</variable></variables><block type="pxt-on-start" id="3%iBp,:LuLBg#K1zQF[(" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="t@-WuEgPlPwPE)]dRrN3"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field></block></statement></block><block type="device_button_event" id="wGZKqCBwo%_1!V~QAqI}" x="237" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="variables_set" id="7,/bkCZ[VVHx{Gw[bBKG"><field name="VAR" id="jQ#*#^Gn:?=r3/naQlb8">sol</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="=ViJ[kZxY19~lw/aGLZL"></block></value><next><block type="controls_if" id="8Ky,^Q-`D.36JgxUSTQ`"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="napa]?^liFc7f:d=yQg;"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="B`17]^,[3WX`cE![Ba)o"><field name="VAR" id="jQ#*#^Gn:?=r3/naQlb8">sol</field></block></value><value name="B"><shadow type="math_number" id="ZSgjDj3zDX{)t#5L$hb7"><field name="NUM">175</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="FXaRa2N7+3+D[?O){qo%"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="Jfs(;1;bzb]$]@#JCjr*"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field></block></statement><next><block type="device_pause" id="Hv7GqD1llmZYR4W4R6np"><value name="pause"><shadow type="timePicker" id="OTK@:6^~yq$3hLyPA!V="><field name="ms">3000</field></shadow></value><next><block type="device_show_leds" id="iIbro]xR6tG=nklzadp|"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field></block></next></block></next></block></next></block></statement></block></xml>
